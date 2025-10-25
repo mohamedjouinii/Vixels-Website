@@ -1,0 +1,65 @@
+/* RTL Support for Arabic Language */
+[dir="rtl"] {
+    text-align: right;
+}
+
+[dir="rtl"] .navbar-nav {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .service-widget .row {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .service-content {
+    text-align: right;
+}
+
+[dir="rtl"] .service-icon-widget {
+    text-align: left;
+}
+
+[dir="rtl"] .form-floating > label {
+    right: 0.75rem;
+    left: auto;
+}
+
+[dir="rtl"] .btn {
+    text-align: center;
+}
+
+[dir="rtl"] .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+/* Language Switcher Styles */
+.language-switcher .dropdown-toggle {
+    border: 1px solid rgba(255,255,255,0.2);
+    color: white;
+    background: transparent;
+}
+
+.language-switcher .dropdown-toggle:hover {
+    background: rgba(255,255,255,0.1);
+    border-color: rgba(255,255,255,0.3);
+}
+
+.language-switcher .dropdown-menu {
+    min-width: 150px;
+}
+
+.language-switcher .dropdown-item {
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+.language-switcher .dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* RTL specific adjustments */
+[dir="rtl"] .language-switcher {
+    margin-left: 0;
+    margin-right: 1rem;
+}
